@@ -82,7 +82,7 @@ TableView.CellSwipeButtons = CellSwipeButtons;
 
 TableView.CellSwipeButton = CellSwipeButton;
 
-export default TableView;
+export var SwipeTableView = TableView;
 
 /*
 
