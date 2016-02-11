@@ -46,7 +46,9 @@ class CellSwipeButton extends React.Component {
         return React.createElement(CellSwipeButtonView, React.__spread({"onAction": this.onAction.bind(this)}, this.props, {"style": style, "onLayout": (event) => { console.log("LAYOUT:", event.nativeEvent.layout); this.setState(event.nativeEvent.layout); }, "componentWidth": this.state.width, "componentHeight": this.state.height}), this.props.children);
     }
     onAction(event) {
-        console.log("SWIPE ACTION: ", event);
+        if (this.props.onAction) {
+            this.props.onAction(event);
+        }
     }
 }
 TableView.CellSwipeButtons = CellSwipeButtons;

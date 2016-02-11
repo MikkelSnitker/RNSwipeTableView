@@ -69,7 +69,9 @@ class CellSwipeButton extends React.Component<any,any> {
     }
     
     onAction(event){
-        console.log("SWIPE ACTION: ", event); 
+        if(this.props.onAction){
+            this.props.onAction(event);
+        }
     }
     /*
     static CellSwipeButton = CellSwipeButton;
