@@ -6,7 +6,7 @@
         "outDir": ".",
         "rootDir": ".",
         "sourceMap": true,
-        "jsx": "preserve"
+        "jsx":"react"
     },
     "exclude": [
         "node_modules"
