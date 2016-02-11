@@ -7,8 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		76D98BE01C6C04BD005949C7 /* RNSwipeTableView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76D98BDF1C6C04BD005949C7 /* RNSwipeTableView.h */; };
-		76D98BE21C6C04BD005949C7 /* RNSwipeTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D98BE11C6C04BD005949C7 /* RNSwipeTableView.m */; };
+		76D98C1B1C6C0988005949C7 /* CellSwipeButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D98BFE1C6C0988005949C7 /* CellSwipeButtonView.m */; };
+		76D98C1C1C6C0988005949C7 /* CellSwipeButtonViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D98C001C6C0988005949C7 /* CellSwipeButtonViewManager.m */; };
+		76D98C1D1C6C0988005949C7 /* JSONDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D98C021C6C0988005949C7 /* JSONDataSource.m */; };
+		76D98C1E1C6C0988005949C7 /* MGSwipeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D98C041C6C0988005949C7 /* MGSwipeButton.m */; };
+		76D98C1F1C6C0988005949C7 /* MGSwipeTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D98C061C6C0988005949C7 /* MGSwipeTableCell.m */; };
+		76D98C201C6C0988005949C7 /* MGSwipeTableCellManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D98C081C6C0988005949C7 /* MGSwipeTableCellManager.m */; };
+		76D98C211C6C0988005949C7 /* RNCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D98C0A1C6C0988005949C7 /* RNCellView.m */; };
+		76D98C221C6C0988005949C7 /* RNCellViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D98C0C1C6C0988005949C7 /* RNCellViewManager.m */; };
+		76D98C231C6C0988005949C7 /* RNTableFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D98C0E1C6C0988005949C7 /* RNTableFooterView.m */; };
+		76D98C241C6C0988005949C7 /* RNTableFooterViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D98C101C6C0988005949C7 /* RNTableFooterViewManager.m */; };
+		76D98C251C6C0988005949C7 /* RNTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D98C121C6C0988005949C7 /* RNTableHeaderView.m */; };
+		76D98C261C6C0988005949C7 /* RNTableHeaderViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D98C141C6C0988005949C7 /* RNTableHeaderViewManager.m */; };
+		76D98C271C6C0988005949C7 /* RNTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D98C161C6C0988005949C7 /* RNTableView.m */; };
+		76D98C281C6C0988005949C7 /* RNTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D98C181C6C0988005949C7 /* RNTableViewCell.m */; };
+		76D98C291C6C0988005949C7 /* RNTableViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D98C1A1C6C0988005949C7 /* RNTableViewManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,7 +31,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				76D98BE01C6C04BD005949C7 /* RNSwipeTableView.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -26,8 +38,36 @@
 
 /* Begin PBXFileReference section */
 		76D98BDC1C6C04BD005949C7 /* libRNSwipeTableView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNSwipeTableView.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		76D98BDF1C6C04BD005949C7 /* RNSwipeTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNSwipeTableView.h; sourceTree = "<group>"; };
-		76D98BE11C6C04BD005949C7 /* RNSwipeTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNSwipeTableView.m; sourceTree = "<group>"; };
+		76D98BFD1C6C0988005949C7 /* CellSwipeButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellSwipeButtonView.h; sourceTree = "<group>"; };
+		76D98BFE1C6C0988005949C7 /* CellSwipeButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellSwipeButtonView.m; sourceTree = "<group>"; };
+		76D98BFF1C6C0988005949C7 /* CellSwipeButtonViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellSwipeButtonViewManager.h; sourceTree = "<group>"; };
+		76D98C001C6C0988005949C7 /* CellSwipeButtonViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellSwipeButtonViewManager.m; sourceTree = "<group>"; };
+		76D98C011C6C0988005949C7 /* JSONDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONDataSource.h; sourceTree = "<group>"; };
+		76D98C021C6C0988005949C7 /* JSONDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONDataSource.m; sourceTree = "<group>"; };
+		76D98C031C6C0988005949C7 /* MGSwipeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGSwipeButton.h; sourceTree = "<group>"; };
+		76D98C041C6C0988005949C7 /* MGSwipeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGSwipeButton.m; sourceTree = "<group>"; };
+		76D98C051C6C0988005949C7 /* MGSwipeTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGSwipeTableCell.h; sourceTree = "<group>"; };
+		76D98C061C6C0988005949C7 /* MGSwipeTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGSwipeTableCell.m; sourceTree = "<group>"; };
+		76D98C071C6C0988005949C7 /* MGSwipeTableCellManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGSwipeTableCellManager.h; sourceTree = "<group>"; };
+		76D98C081C6C0988005949C7 /* MGSwipeTableCellManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGSwipeTableCellManager.m; sourceTree = "<group>"; };
+		76D98C091C6C0988005949C7 /* RNCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCellView.h; sourceTree = "<group>"; };
+		76D98C0A1C6C0988005949C7 /* RNCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCellView.m; sourceTree = "<group>"; };
+		76D98C0B1C6C0988005949C7 /* RNCellViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCellViewManager.h; sourceTree = "<group>"; };
+		76D98C0C1C6C0988005949C7 /* RNCellViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCellViewManager.m; sourceTree = "<group>"; };
+		76D98C0D1C6C0988005949C7 /* RNTableFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNTableFooterView.h; sourceTree = "<group>"; };
+		76D98C0E1C6C0988005949C7 /* RNTableFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNTableFooterView.m; sourceTree = "<group>"; };
+		76D98C0F1C6C0988005949C7 /* RNTableFooterViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNTableFooterViewManager.h; sourceTree = "<group>"; };
+		76D98C101C6C0988005949C7 /* RNTableFooterViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNTableFooterViewManager.m; sourceTree = "<group>"; };
+		76D98C111C6C0988005949C7 /* RNTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNTableHeaderView.h; sourceTree = "<group>"; };
+		76D98C121C6C0988005949C7 /* RNTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNTableHeaderView.m; sourceTree = "<group>"; };
+		76D98C131C6C0988005949C7 /* RNTableHeaderViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNTableHeaderViewManager.h; sourceTree = "<group>"; };
+		76D98C141C6C0988005949C7 /* RNTableHeaderViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNTableHeaderViewManager.m; sourceTree = "<group>"; };
+		76D98C151C6C0988005949C7 /* RNTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNTableView.h; sourceTree = "<group>"; };
+		76D98C161C6C0988005949C7 /* RNTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNTableView.m; sourceTree = "<group>"; };
+		76D98C171C6C0988005949C7 /* RNTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNTableViewCell.h; sourceTree = "<group>"; };
+		76D98C181C6C0988005949C7 /* RNTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNTableViewCell.m; sourceTree = "<group>"; };
+		76D98C191C6C0988005949C7 /* RNTableViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNTableViewManager.h; sourceTree = "<group>"; };
+		76D98C1A1C6C0988005949C7 /* RNTableViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNTableViewManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +84,7 @@
 		76D98BD31C6C04BD005949C7 = {
 			isa = PBXGroup;
 			children = (
+				76D98BE81C6C0538005949C7 /* Libraries */,
 				76D98BDE1C6C04BD005949C7 /* RNSwipeTableView */,
 				76D98BDD1C6C04BD005949C7 /* Products */,
 			);
@@ -60,10 +101,45 @@
 		76D98BDE1C6C04BD005949C7 /* RNSwipeTableView */ = {
 			isa = PBXGroup;
 			children = (
-				76D98BDF1C6C04BD005949C7 /* RNSwipeTableView.h */,
-				76D98BE11C6C04BD005949C7 /* RNSwipeTableView.m */,
+				76D98BFD1C6C0988005949C7 /* CellSwipeButtonView.h */,
+				76D98BFE1C6C0988005949C7 /* CellSwipeButtonView.m */,
+				76D98BFF1C6C0988005949C7 /* CellSwipeButtonViewManager.h */,
+				76D98C001C6C0988005949C7 /* CellSwipeButtonViewManager.m */,
+				76D98C011C6C0988005949C7 /* JSONDataSource.h */,
+				76D98C021C6C0988005949C7 /* JSONDataSource.m */,
+				76D98C031C6C0988005949C7 /* MGSwipeButton.h */,
+				76D98C041C6C0988005949C7 /* MGSwipeButton.m */,
+				76D98C051C6C0988005949C7 /* MGSwipeTableCell.h */,
+				76D98C061C6C0988005949C7 /* MGSwipeTableCell.m */,
+				76D98C071C6C0988005949C7 /* MGSwipeTableCellManager.h */,
+				76D98C081C6C0988005949C7 /* MGSwipeTableCellManager.m */,
+				76D98C091C6C0988005949C7 /* RNCellView.h */,
+				76D98C0A1C6C0988005949C7 /* RNCellView.m */,
+				76D98C0B1C6C0988005949C7 /* RNCellViewManager.h */,
+				76D98C0C1C6C0988005949C7 /* RNCellViewManager.m */,
+				76D98C0D1C6C0988005949C7 /* RNTableFooterView.h */,
+				76D98C0E1C6C0988005949C7 /* RNTableFooterView.m */,
+				76D98C0F1C6C0988005949C7 /* RNTableFooterViewManager.h */,
+				76D98C101C6C0988005949C7 /* RNTableFooterViewManager.m */,
+				76D98C111C6C0988005949C7 /* RNTableHeaderView.h */,
+				76D98C121C6C0988005949C7 /* RNTableHeaderView.m */,
+				76D98C131C6C0988005949C7 /* RNTableHeaderViewManager.h */,
+				76D98C141C6C0988005949C7 /* RNTableHeaderViewManager.m */,
+				76D98C151C6C0988005949C7 /* RNTableView.h */,
+				76D98C161C6C0988005949C7 /* RNTableView.m */,
+				76D98C171C6C0988005949C7 /* RNTableViewCell.h */,
+				76D98C181C6C0988005949C7 /* RNTableViewCell.m */,
+				76D98C191C6C0988005949C7 /* RNTableViewManager.h */,
+				76D98C1A1C6C0988005949C7 /* RNTableViewManager.m */,
 			);
 			path = RNSwipeTableView;
+			sourceTree = "<group>";
+		};
+		76D98BE81C6C0538005949C7 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,7 +199,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76D98BE21C6C04BD005949C7 /* RNSwipeTableView.m in Sources */,
+				76D98C261C6C0988005949C7 /* RNTableHeaderViewManager.m in Sources */,
+				76D98C241C6C0988005949C7 /* RNTableFooterViewManager.m in Sources */,
+				76D98C1D1C6C0988005949C7 /* JSONDataSource.m in Sources */,
+				76D98C271C6C0988005949C7 /* RNTableView.m in Sources */,
+				76D98C231C6C0988005949C7 /* RNTableFooterView.m in Sources */,
+				76D98C1B1C6C0988005949C7 /* CellSwipeButtonView.m in Sources */,
+				76D98C1E1C6C0988005949C7 /* MGSwipeButton.m in Sources */,
+				76D98C211C6C0988005949C7 /* RNCellView.m in Sources */,
+				76D98C221C6C0988005949C7 /* RNCellViewManager.m in Sources */,
+				76D98C291C6C0988005949C7 /* RNTableViewManager.m in Sources */,
+				76D98C281C6C0988005949C7 /* RNTableViewCell.m in Sources */,
+				76D98C1C1C6C0988005949C7 /* CellSwipeButtonViewManager.m in Sources */,
+				76D98C1F1C6C0988005949C7 /* MGSwipeTableCell.m in Sources */,
+				76D98C201C6C0988005949C7 /* MGSwipeTableCellManager.m in Sources */,
+				76D98C251C6C0988005949C7 /* RNTableHeaderView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,18 +303,22 @@
 		76D98BE61C6C04BD005949C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = "/usr/local/lib/node_modules/react-native/React/**";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "$(inherited) /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include /usr/local/lib/node_modules/react-native/React/**";
 			};
 			name = Debug;
 		};
 		76D98BE71C6C04BD005949C7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = "/usr/local/lib/node_modules/react-native/React/**";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "$(inherited) /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include /usr/local/lib/node_modules/react-native/React/**";
 			};
 			name = Release;
 		};
