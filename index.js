@@ -12,6 +12,8 @@ class SwipeTableView extends TableView {
         super(props);
     }
 }
+SwipeTableView.CellSwipeButton = CellSwipeButton;
+SwipeTableView.CellSwipeButtons = CellSwipeButtons;
 exports.SwipeTableView = SwipeTableView;
 class Left extends React.Component {
     constructor(props) {
