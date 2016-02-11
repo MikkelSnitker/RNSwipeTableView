@@ -7,14 +7,6 @@ var CellSwipeButtonView = requireNativeComponent('CellSwipeButtonView', null);
 var CellSwipeButtonsView = requireNativeComponent('CellSwipeButtonsView', null);
 ;
 var TableView = require('react-native-tableview');
-class SwipeTableView extends TableView {
-    constructor(props) {
-        super(props);
-    }
-}
-SwipeTableView.CellSwipeButton = CellSwipeButton;
-SwipeTableView.CellSwipeButtons = CellSwipeButtons;
-exports.SwipeTableView = SwipeTableView;
 class Left extends React.Component {
     constructor(props) {
         super(props);
@@ -23,7 +15,6 @@ class Left extends React.Component {
         return React.createElement(CellSwipeButtons, React.__spread({}, this.props, {"type": "left"}), this.props.children);
     }
 }
-
 class Right extends React.Component {
     constructor(props) {
         super(props);
@@ -60,6 +51,9 @@ class CellSwipeButton extends React.Component {
 }
 CellSwipeButton.CellSwipeButton = CellSwipeButton;
 CellSwipeButton.CellSwipeButtons = CellSwipeButtons;
+TableView.CellSwipeButtons = CellSwipeButtons;
+TableView.CellSwipeButton = CellSwipeButton;
+exports.SwipeTableView = TableView;
 /*
 
 SwipeTableView.CellSwipeButton = React.createClass({
