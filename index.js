@@ -23,6 +23,7 @@ class Left extends React.Component {
         return React.createElement(CellSwipeButtons, React.__spread({}, this.props, {"type": "left"}), this.props.children);
     }
 }
+
 class Right extends React.Component {
     constructor(props) {
         super(props);

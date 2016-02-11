@@ -8,20 +8,14 @@ var { requireNativeComponent } = React;
 var CellSwipeButtonView = requireNativeComponent('CellSwipeButtonView', null);
 var CellSwipeButtonsView = requireNativeComponent('CellSwipeButtonsView', null);
 
-interface TableViewConstructor extends React.Component<any,any>{
+interface TableViewConstructor {
     new(props?:any): React.Component<any,any>;
+    CellSwipeButton: CellSwipeButton;
+    CellSwipeButtons: CellSwipeButtons;
 };
 
-var TableView:TableViewConstructor = require('react-native-tableview');
 
-export class SwipeTableView extends TableView {
-    constructor(props?:any){
-        super(props);
-    }
-   
-    static CellSwipeButton = CellSwipeButton;
-    static CellSwipeButtons = CellSwipeButtons;
-} 
+var TableView = require('react-native-tableview');
 
 class Left extends React.Component<any,any>{
     constructor(props?:any){
@@ -83,6 +77,12 @@ class CellSwipeButton extends React.Component<any,any> {
     
 }
  
+
+TableView.CellSwipeButtons = CellSwipeButtons;
+
+TableView.CellSwipeButton = CellSwipeButton;
+
+export var SwipeTableView = TableView;
 
 /*
 
