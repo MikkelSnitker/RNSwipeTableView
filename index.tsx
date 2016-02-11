@@ -62,7 +62,7 @@ class CellSwipeButton extends React.Component<any,any> {
         style.position = "absolute";
         
         
-        return <CellSwipeButtonView onAction={event=>alert(event)}  {...this.props} style={style} onLayout={(event)=>{console.log("LAYOUT:",event.nativeEvent.layout); this.setState(event.nativeEvent.layout)}}  componentWidth={this.state.width} componentHeight={this.state.height}>
+        return <CellSwipeButtonView onAction={this.onAction.bind(this)}  {...this.props} style={style} onLayout={(event)=>{console.log("LAYOUT:",event.nativeEvent.layout); this.setState(event.nativeEvent.layout)}}  componentWidth={this.state.width} componentHeight={this.state.height}>
       {this.props.children}
         </CellSwipeButtonView>
     }
