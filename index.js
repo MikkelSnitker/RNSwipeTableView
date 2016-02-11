@@ -53,7 +53,7 @@ CellSwipeButton.CellSwipeButton = CellSwipeButton;
 CellSwipeButton.CellSwipeButtons = CellSwipeButtons;
 TableView.CellSwipeButtons = CellSwipeButtons;
 TableView.CellSwipeButton = CellSwipeButton;
-exports.SwipeTableView = TableView;
+exports.default = TableView;
 /*
 
 SwipeTableView.CellSwipeButton = React.createClass({
