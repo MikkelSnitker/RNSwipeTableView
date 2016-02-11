@@ -55,10 +55,11 @@ class CellSwipeButtons extends React.Component<any,any>{
 class CellSwipeButton extends React.Component<any,any> {
     constructor(props?:any){
         super(props);
+        
+        this.state = {width: 0, height: 0};
     }
      render() {
         var style = this.props.style || {};
-        this.state = {width: 0, height: 0};
         style.position = "absolute";
         
         

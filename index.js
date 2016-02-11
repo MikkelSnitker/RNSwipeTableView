@@ -38,10 +38,10 @@ CellSwipeButtons.Right = Right;
 class CellSwipeButton extends React.Component {
     constructor(props) {
         super(props);
+        this.state = { width: 0, height: 0 };
     }
     render() {
         var style = this.props.style || {};
-        this.state = { width: 0, height: 0 };
         style.position = "absolute";
         return React.createElement(CellSwipeButtonView, React.__spread({"onAction": this.onAction.bind(this)}, this.props, {"style": style, "onLayout": (event) => { console.log("LAYOUT:", event.nativeEvent.layout); this.setState(event.nativeEvent.layout); }, "componentWidth": this.state.width, "componentHeight": this.state.height}), this.props.children);
     }
