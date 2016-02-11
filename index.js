@@ -49,8 +49,6 @@ class CellSwipeButton extends React.Component {
         console.log(event);
     }
 }
-CellSwipeButton.CellSwipeButton = CellSwipeButton;
-CellSwipeButton.CellSwipeButtons = CellSwipeButtons;
 TableView.CellSwipeButtons = CellSwipeButtons;
 TableView.CellSwipeButton = CellSwipeButton;
 exports.SwipeTableView = TableView;

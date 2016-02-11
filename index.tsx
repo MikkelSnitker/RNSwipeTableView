@@ -71,10 +71,10 @@ class CellSwipeButton extends React.Component<any,any> {
         alert(event);
         console.log(event);
     }
-    
+    /*
     static CellSwipeButton = CellSwipeButton;
     static CellSwipeButtons = CellSwipeButtons;
-    
+    */
 }
  
 
