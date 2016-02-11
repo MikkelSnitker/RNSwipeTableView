@@ -10,10 +10,6 @@ declare module 'react-native-tableview'{
     interface ItemConstructor extends React.Component<any,any>{}
     interface CellConstructor extends React.Component<any,any>{}
     interface SwipeCellConstructor extends React.Component<any,any>{}
-    /*
-    interface CellSwipeButtonsConstructor extends React.Component<any,any>{}
-    interface CellSwipeButtonConstructor extends React.Component<any,any>{}
-    */
     
     export var TableView: {
       new(props?: any): TableViewConstructor;
@@ -30,23 +26,6 @@ declare module 'react-native-tableview'{
         prototype:SwipeCellConstructor;
       };
       
-      /*
-        CellSwipeButtons: {
-        new(props?:any): CellSwipeButtonsConstructor;
-        prototype:CellSwipeButtonsConstructor;
-        CellSwipeButton: {
-            Left: CellSwipeButtonConstructor,
-            Right: CellSwipeButtonConstructor,
-        }
-      };
-      
-     
-        CellSwipeButton: {
-        new(props?:any): CellSwipeButtonConstructor;
-        prototype:CellSwipeButtonConstructor;
-      };*/
-      
-       
        Cell: {
         new(props?:any): CellConstructor;
         prototype: CellConstructor;
@@ -65,8 +44,6 @@ declare module 'react-native-tableview'{
     export type Section= SectionConstructor;
     export type Cell= CellConstructor;
     
-    export default TableView;
-    
-   
+    export default TableView; 
 }
 

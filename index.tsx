@@ -1,13 +1,18 @@
 ///<reference path="typings/react-native-tableview/react-native-tableview.d.ts" />
 ///<reference path="typings/react-native/react-native.d.ts" />
 
-import TableView from 'react-native-tableview'
+//import TableView from 'react-native-tableview'
 import  * as React from 'react-native'
-
 var { requireNativeComponent } = React;
 
 var CellSwipeButtonView = requireNativeComponent('CellSwipeButtonView', null);
 var CellSwipeButtonsView = requireNativeComponent('CellSwipeButtonsView', null);
+
+interface TableViewConstructor extends React.Component<any,any>{
+    new(props?:any): React.Component<any,any>;
+};
+
+var TableView:TableViewConstructor = require('react-native-tableview');
 
 export class SwipeTableView extends TableView {
     constructor(props?:any){
