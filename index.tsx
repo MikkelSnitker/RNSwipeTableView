@@ -19,6 +19,8 @@ export class SwipeTableView extends TableView {
         super(props);
     }
    
+    static CellSwipeButton = CellSwipeButton;
+    static CellSwipeButtons = CellSwipeButtons;
 } 
 
 class Left extends React.Component<any,any>{
