@@ -41,7 +41,7 @@ class CellSwipeButton extends React.Component {
     }
     render() {
         var style = this.props.style || {};
-        this.state = { width: 70, height: 70 };
+        this.state = { width: 0, height: 0 };
         style.position = "absolute";
         return React.createElement(CellSwipeButtonView, React.__spread({"onAction": event => alert(event)}, this.props, {"style": style, "onLayout": (event) => { console.log("LAYOUT:", event.nativeEvent.layout); this.setState(event.nativeEvent.layout); }, "componentWidth": this.state.width, "componentHeight": this.state.height}));
     }
